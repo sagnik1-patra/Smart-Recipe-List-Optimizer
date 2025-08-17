@@ -1,0 +1,40 @@
+columns:
+- name
+- id
+- minutes
+- contributor_id
+- submitted
+- tags
+- nutrition
+- n_steps
+- steps
+- description
+- ingredients
+- n_ingredients
+- clean_ingredients
+embedding_dim: 4171
+n_recipes: 231637
+vectorizer_params:
+  analyzer: word
+  binary: false
+  decode_error: strict
+  dtype: !!python/name:numpy.float64 ''
+  encoding: utf-8
+  input: content
+  lowercase: true
+  max_df: 1.0
+  max_features: 5000
+  min_df: 1
+  ngram_range: !!python/tuple
+  - 1
+  - 1
+  norm: l2
+  preprocessor: null
+  smooth_idf: true
+  stop_words: english
+  strip_accents: null
+  sublinear_tf: false
+  token_pattern: (?u)\b\w\w+\b
+  tokenizer: null
+  use_idf: true
+  vocabulary: null
